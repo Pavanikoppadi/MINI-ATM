@@ -2,7 +2,7 @@
 
 ## Overview
 
-Bulla's Billing System is a desktop application built using Python's `tkinter` library. It provides a graphical user interface for managing and generating bills for various products, including cosmetics, grocery items, and other goods. The application generates a unique bill number for each transaction, calculates totals and taxes, and allows the user to view and clear bills.
+Koppadi's Billing System is a desktop application built using Python's `tkinter` library. It provides a graphical user interface for managing and generating bills for various products, including cosmetics, grocery items, and other goods. The application generates a unique bill number for each transaction, calculates totals and taxes, and allows the user to view and clear bills.
 
 ## Features
 
