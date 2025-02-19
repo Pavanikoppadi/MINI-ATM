@@ -1,4 +1,4 @@
-# Bulla's Billing System
+# Koppadi's Billing System
 
 ## Overview
 
