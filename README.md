@@ -1,32 +1,25 @@
-# Koppadi's Billing System
+# MINI ATM System
 
-## Overview
-
-Koppadi's Billing System is a desktop application built using Python's `tkinter` library. It provides a graphical user interface for managing and generating bills for various products, including cosmetics, grocery items, and other goods. The application generates a unique bill number for each transaction, calculates totals and taxes, and allows the user to view and clear bills.
+## Introduction
+The **MINI ATM System** is a simple Python program designed to simulate a basic ATM machine. It allows users to check their account details, withdraw money, and deposit money. This project is ideal for beginners who want to understand the basics of Python, loops, conditionals, and list handling.
 
 ## Features
+- **Account Authentication:** Users can authenticate themselves using their name and a PIN code.
+- **Account Details:** Displays the account number and balance of the authenticated user.
+- **Withdraw Funds:** Users can withdraw money from their account. The system checks if the withdrawal amount is less than or equal to the current balance.
+- **Deposit Funds:** Users can deposit money into their account, which updates the balance accordingly.
 
-- **Customer Details**: Enter customer name, phone number, and automatically generate a unique bill number.
-- **Product Management**: Manage quantities for cosmetics, grocery items, and other products.
-- **Billing and Totals**: Calculate total prices, taxes, and display a detailed bill.
-- **User Interface**: A clean and interactive UI with various sections for different functionalities.
+## How It Works
+1. **Authentication:** 
+   - Users are prompted to enter their name and PIN.
+   - The system checks if the entered name and PIN match any account in the database.
+   
+2. **Account Details:**
+   - If the authentication is successful, the user's account number and balance are displayed.
+   
+3. **Withdraw or Deposit:**
+   - Users can choose to withdraw or deposit money.
+   - The system updates the balance accordingly and displays the new balance.
 
-## Project Structure
-
-The application consists of several key components:
-
-1. **Customer Details Frame**
-   - Allows entry of customer name, phone number, and displays the bill number.
-   - Contains an "Enter" button to generate and process the bill.
-
-2. **Cosmetics Frame**
-   - Input fields for various cosmetics products such as Bath Soap, Face Cream, Face Wash, etc.
-
-3. **Grocery Frame**
-   - Input fields for grocery items such as Rice, Food Oil, Daal, etc.
-
-4. **Other Products Frame**
-   - Input fields for other products such as Maza, Coke, Frooti, etc.
-
-5. **Bill Area**
-   - Displays the generated bill with details of purchased items, their quantities, and total prices.
+4. **Invalid Data Handling:**
+   - If an incorrect name or PIN is entered, the system will prompt the user to try again.
